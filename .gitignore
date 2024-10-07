@@ -10,10 +10,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Ignore the IDE files
-.vscode/
-.idea/
-
 # testing
 /coverage
 
@@ -26,10 +22,6 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 # Other files or directories to ignore
 *.log         # Ignore log files
