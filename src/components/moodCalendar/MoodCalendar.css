@@ -1,0 +1,33 @@
+.react-calendar {
+    border: none;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.react-calendar__tile {
+    border-radius: 0;
+    height: 60px;
+}
+
+.react-calendar__tile.mood-happy {
+    background-color: #ffeb3b;
+}
+
+.react-calendar__tile.mood-sad {
+    background-color: #90caf9;
+}
+
+.react-calendar__tile.mood-neutral {
+    background-color: #e0e0e0;
+}
+
+.react-calendar__tile.mood-angry {
+    background-color: #e57373;
+}
+
+.react-calendar__tile.mood-excited {
+    background-color: #ffb74d; /* Orange for excited */
+}
