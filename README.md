@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+# Projet Mood Tracker avec Journal Visuel
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web application built using **TypeScript** and **React** that allows users to record and track their mood over time through an interactive visual journal. It includes features like a mood entry form, a calendar to display mood entries, and analytics to visualize mood trends over time.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Mood Entry Form**: Log daily moods with an optional note and date.
+- **Mood Calendar**: Visualize mood entries over time with a calendar view.
+- **Mood Analytics**: Analyze mood trends and visualize the distribution of different moods using charts.
+- **Interactive UI**: Built with responsive design for a smooth user experience on both desktop and mobile devices.
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Frontend**: React, TypeScript, CSS
+- **Charts**: Apache ECharts (for data visualization)
+- **Build Tool**: Create React App
+- **Version Control**: Git and GitHub
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation
 
-### `npm test`
+Follow these steps to run the project locally:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/tamipu/mood-tracker-journey.git
+   cd mood-tracker-journal
+   ```
 
-### `npm run build`
+2. **Install dependencies**:
+   Make sure you have [Node.js](https://nodejs.org/) installed, then run:
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+   The application will be available at `http://localhost:3000`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Open the app in your browser.
+2. Use the form to select your mood, add any additional notes, and specify a date.
+3. Click the **Save Mood Entry** button to log your mood.
+4. View your logged moods on the calendar and analyze trends in the analytics section.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the MIT License.
