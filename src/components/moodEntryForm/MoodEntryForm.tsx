@@ -17,6 +17,7 @@ const MoodEntryForm: React.FC<{ onSave: (entry: MoodEntry) => void }> = ({ onSav
         onSave({ mood, note, date });
         setMood('neutral');
         setNote('');
+        setDate(new Date().toISOString().split('T')[0]);
     };
 
     return (
