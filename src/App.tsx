@@ -20,7 +20,6 @@ const App: React.FC = () => {
         <div className="container">
             <h1>My Mood Journal</h1>
             <MoodEntryForm onSave={handleSaveEntry} />
-            <MoodCalendar entries={moodEntries} />
             <div className="echarts-container">
                 <MoodAnalytics entries={moodEntries} />
             </div>
